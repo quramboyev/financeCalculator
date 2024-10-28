@@ -10,7 +10,7 @@ def calculate_finance(monthly_income: float, tax_rate: float, currency: str) -> 
     print(f'Ежемесячный налог: {currency}{monthly_net_income}$')
     print(f'Ежемесячный чистый доход: {currency}{yearly_salary}$')
     print(f'Годовой уплаченный налог: {currency}{yearly_tax}$')
-    print(f'Годовой чистый доход: {currency}{yearly_net_income12}$')
+    print(f'Годовой чистый доход: {currency}{yearly_net_income}$')
     print('---------------------------')
 calculate_finance(100.1234, 20, '$')
 
